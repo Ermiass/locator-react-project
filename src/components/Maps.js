@@ -106,6 +106,7 @@ const Maps = ({restaurants,newSearch }) => {
                   }
                 
               }
+              return null
              
           })
             

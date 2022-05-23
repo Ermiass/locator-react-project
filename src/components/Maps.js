@@ -12,9 +12,8 @@ const Maps = ({restaurants,newSearch }) => {
   }
  
   return (
-  <div className='map--layout'>
   <Map
-    height={500} defaultCenter={[37.733795, -122.446747]} defaultZoom={12}>
+    height={500} defaultCenter={[37.773972, -122.431297]} defaultZoom={13}>
       <ZoomControl />
       <Marker width={50} anchor={[37.780133, -122.445864]} />
     
@@ -42,7 +41,7 @@ const Maps = ({restaurants,newSearch }) => {
             <img   onClick={ () => {
                         togglePopup(business_id)}
                         } 
-                        src='/images/restaurant1.png' width={20} height={20}   z-index={'2'} alt='resturant-icon' />
+                        src='/images/restaurant1.png' width={20} height={20} alt='resturant-icon' />
                    
                       { business_id === restaurantId && 
                        
@@ -112,7 +111,6 @@ const Maps = ({restaurants,newSearch }) => {
             
           } 
         </Map>
-        </div>
       )
 }
 

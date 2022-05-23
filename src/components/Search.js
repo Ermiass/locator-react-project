@@ -5,9 +5,10 @@ import styled from 'styled-components';
 const StyledContainer = styled.div`
   display: flex;
   justify-content:center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   position: relative;
+  width: 500px;
+  height:64px;
+  margin: 0 auto;
 `
 
 const StyledInput = styled.input`
@@ -22,8 +23,10 @@ const StyledInput = styled.input`
 
 const StyledIcon = styled.div`
   position: absolute;
-  top: 5px;
-  right: 990px;
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 450px;
 `
 
 const Search = ({newSearch, handleSearch,refreshSearch}) => {

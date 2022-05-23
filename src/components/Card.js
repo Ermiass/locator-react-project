@@ -12,7 +12,6 @@ display: grid;
   width:80%;
   height:80vh;
   margin: 0 auto;
-  margin-top: 3rem;
   overflow-y: scroll;
   & > article {
     border: 1px solid #ccc;

@@ -5,7 +5,7 @@ Technologies: React.js, Styled Components
 Data: https://datasf.org/opendata
 Map: https://www.npmjs.com/package/pigeon-maps
 
-#### Demo:
+#### Demo: https://ejrestaurant-locator.netlify.app/
 
 ## Team: Ermias and Jesus
 
